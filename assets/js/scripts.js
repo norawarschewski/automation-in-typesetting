@@ -13,7 +13,7 @@ function setup(data) {
 
     description.innerHTML += `
     <div class="description">${grepStyle.description}</div>
-    <div class="code">${grepStyle.code}</div>
+    <div class="code"><code>${grepStyle.code}</code></div>
     <div class="copy">&#128203;</div>
     `;
 
