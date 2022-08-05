@@ -170,7 +170,7 @@ h3 {
 }
 
 .intro p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .grid__1-4 {
@@ -220,6 +220,10 @@ h3 {
 @media (max-width: 768px) {
     header p {
         width: 60vw;
+    }
+
+    .grid__1-4, .grid__5-7, .grid__5-9, .grid__7-9, .description {
+        grid-column: 1/span 9;
     }
 }
 
