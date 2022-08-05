@@ -8,7 +8,7 @@
     --clr-black: hsl(0, 0%, 0%);
     --clr-white: hsl(0, 0%, 95%);
     --clr-grey: hsla(0, 0%, 92%);
-    --clr-acc: hsl(338, 100%, 50%);
+    --clr-acc: hsl(324, 100%, 50%);
 
     --size-xs: 0.6rem;
     --size-s: 0.8rem;
@@ -17,20 +17,20 @@
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 5px;
 }
  
 ::-webkit-scrollbar-track {
-    background-color: var(--clr-black);
+    background-color: var(--clr-grey);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--clr-white); 
+    background: var(--clr-acc); 
 }
 
 ::selection {
     color: var(--clr-white);
-    background: var(--clr-white);
+    background: var(--clr-acc);
   }
 
 * {
@@ -140,6 +140,7 @@ h2 {
     margin: 0;
     font-weight: 400;
     font-style: normal;
+    color: var(--clr-acc);
 }
 
 h3 {
@@ -162,7 +163,10 @@ h3 {
     grid-column: 1/9;
     align-self: center;
     padding: 1rem 0 0;
-    text-transform: uppercase;
+}
+
+.intro h3 {
+    padding: 0;
 }
 
 .grid__1-4 {
