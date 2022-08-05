@@ -60,15 +60,51 @@
     "type": "common"
   },
   {
-    "description": "Correct capitalization",
+    "description": "Find TM",
+    "find": "~d",
+    "replace": "",
+    "type": "common"
+  },
+  {
+    "description": "Correct capitalization of brand name",
     "find": "(?-i:fraunhofer umsicht)",
     "replace": "Fraunhofer UMSICHT",
     "type": "fraunhofer"
   },
   {
+    "description": "Phone number",
+    "find": "",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Replace curly quotation marks with Guillemets",
+    "find": "",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Single quotation marks (German)",
+    "find": "",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Replace straight with curly quotation marks",
+    "find": "",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Prevent separation of brand name",
+    "find": "Fraunhofer UMSICHT",
+    "replace": "corresponding character style ‘no break’",
+    "type": "fraunhofer"
+  },
+  {
     "description": "Find CO2 and add character style with superscript",
     "find": " (?<=\\<CO)2\\>", 
-    "replace": "corresponding character style",
+    "replace": "corresponding character style ‘subscript’",
     "type": "chemicalformula"
   }
 ]
