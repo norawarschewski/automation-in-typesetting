@@ -1,0 +1,12 @@
+[
+  {
+    "description": "Multiple spaces",
+    "code": "(\\s){2,}",
+    "type": "common"
+  },
+  {
+    "description": "Single space",
+    "code": "$1",
+    "type": "common"
+  }
+]
