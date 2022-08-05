@@ -64,5 +64,11 @@
     "find": "(?-i:fraunhofer umsicht)",
     "replace": "Fraunhofer UMSICHT",
     "type": "fraunhofer"
+  },
+  {
+    "description": "Find CO2 and add character style with superscript",
+    "find": " (?<=\\<CO)2\\>", 
+    "replace": "corresponding character style",
+    "type": "chemicalformula"
   }
 ]
