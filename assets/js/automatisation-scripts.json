@@ -8,5 +8,35 @@
     "description": "Single space",
     "code": "$1",
     "type": "common"
+  },
+  {
+    "description": "Spaces at the end of a paragraph",
+    "code": "\\s+$",
+    "type": "common"
+  },
+  {
+    "description": "Multiple returns",
+    "code": "\\r+",
+    "type": "common"
+  },
+  {
+    "description": "Single return",
+    "code": "\\r",
+    "type": "common"
+  },
+  {
+    "description": "Search string",
+    "code": "[abc]",
+    "type": "common"
+  },
+  {
+    "description": "Case-sensitive on",
+    "code": "(?i:apple)",
+    "type": "common"
+  },
+  {
+    "description": "Case-sensitive off",
+    "code": "(?-i:Apple)",
+    "type": "common"
   }
 ]
