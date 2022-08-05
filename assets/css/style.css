@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap');
 
 /* =========================================
 -------------------- MAIN -----------------
@@ -77,7 +77,7 @@ h5,
 h6,
 li,
 b {
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -104,7 +104,7 @@ header p {
 }
 
 /* =========================================
----------------- PROJECT GRID -------------
+---------------- GREP STYLES -------------
 ========================================= */
 
 .grep-style {
@@ -122,8 +122,8 @@ header p {
     align-self: center;
 }
 
-.code {
-    font-family: monospace;
+.code, .code.grid__5-7 {
+    font-family: inherit!important;
     font-weight: 200;
     align-self: center;
 }
@@ -168,6 +168,10 @@ h3 {
     padding: 0;
 }
 
+.intro p {
+    font-size: 1.1rem;
+}
+
 .grid__1-4 {
     grid-column: 1/4;
 }
@@ -186,12 +190,16 @@ h3 {
 
 .cheatsheet code {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     width: 3rem;
     text-align: right;
     display: inline-flex;
 }
- 
+
+.cheatsheet p {
+    margin: 0;
+}
+
 /* =========================================
 --------------- RESPONSIVENESS -------------
 ========================================= */
