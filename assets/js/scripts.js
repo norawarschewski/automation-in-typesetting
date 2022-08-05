@@ -14,7 +14,7 @@ function setup(data) {
     description.innerHTML += `
     <div class="description">${grepStyle.description}</div>
     <div class="code grid__5-7"><code>${grepStyle.find}</code></div>
-    <div class="code grid__7-8"><code>${grepStyle.replace}</code></div>
+    <div class="code grid__7-9"><code>${grepStyle.replace}</code></div>
     `;
 
     const parent = document.getElementById("grepStyles_common");
