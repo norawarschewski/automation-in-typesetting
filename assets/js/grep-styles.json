@@ -1,32 +1,20 @@
 [
   {
-    "description": "Multiple spaces",
+    "description": "Find multiple spaces and replace with single spaces",
     "find": "(\\s){2,}",
-    "replace": "",
+    "replace": "$1",
     "type": "common"
   },
   {
-    "description": "Single space",
-    "find": "$1",
-    "replace": "",
-    "type": "common"
-  },
-  {
-    "description": "Spaces at the end of a paragraph",
+    "description": "Find spaces at the end of a paragraph",
     "find": "\\s+$",
     "replace": "",
     "type": "common"
   },
   {
-    "description": "Multiple returns",
+    "description": "Find multiple returns and replace with single returns",
     "find": "\\r+",
-    "replace": "",
-    "type": "common"
-  },
-  {
-    "description": "Single return",
-    "find": "\\r",
-    "replace": "",
+    "replace": "\\r",
     "type": "common"
   },
   {
