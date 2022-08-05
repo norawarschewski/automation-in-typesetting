@@ -1,42 +1,68 @@
 [
   {
     "description": "Multiple spaces",
-    "code": "(\\s){2,}",
+    "find": "(\\s){2,}",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Single space",
-    "code": "$1",
+    "find": "$1",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Spaces at the end of a paragraph",
-    "code": "\\s+$",
+    "find": "\\s+$",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Multiple returns",
-    "code": "\\r+",
+    "find": "\\r+",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Single return",
-    "code": "\\r",
+    "find": "\\r",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Search string",
-    "code": "[abc]",
+    "find": "[abc]",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Case-sensitive on",
-    "code": "(?i:apple)",
+    "find": "(?i:apple)",
+    "replace": "",
     "type": "common"
   },
   {
     "description": "Case-sensitive off",
-    "code": "(?-i:Apple)",
+    "find": "(?-i:Apple)",
+    "replace": "",
     "type": "common"
+  },
+  {
+    "description": "Find c in parantheses",
+    "find": "\\(c+\\)",
+    "replace": "",
+    "type": "common"
+  }, 
+  {
+    "description": "Find r in parantheses",
+    "find": "\\(r+\\)",
+    "replace": "",
+    "type": "common"
+  },
+  {
+    "description": "Correct capitalization",
+    "find": "(?-i:fraunhofer umsicht)",
+    "replace": "Fraunhofer UMSICHT",
+    "type": "fraunhofer"
   }
 ]
