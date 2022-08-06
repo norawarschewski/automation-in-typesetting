@@ -1,23 +1,5 @@
 [
   {
-    "description": "Find multiple spaces and replace with single spaces",
-    "find": "(\\s){2,}",
-    "replace": "$1",
-    "type": "common"
-  },
-  {
-    "description": "Find spaces at the end of a paragraph",
-    "find": "\\s+$",
-    "replace": "",
-    "type": "common"
-  },
-  {
-    "description": "Find multiple returns and replace with single returns",
-    "find": "\\r+",
-    "replace": "\\r",
-    "type": "common"
-  },
-  {
     "description": "Search string",
     "find": "[abc]",
     "replace": "",
@@ -36,21 +18,39 @@
     "type": "common"
   },
   {
+    "description": "Find multiple spaces and replace with single spaces",
+    "find": "(\\s){2,}",
+    "replace": "$1",
+    "type": "common"
+  },
+  {
+    "description": "Find multiple returns and replace with single returns",
+    "find": "\\r+",
+    "replace": "\\r",
+    "type": "common"
+  },
+  {
+    "description": "Find spaces at the end of a paragraph",
+    "find": "\\s+$",
+    "replace": "",
+    "type": "common"
+  },
+  {
     "description": "Find c in parantheses",
     "find": "\\(c+\\)",
-    "replace": "",
+    "replace": "~2",
     "type": "common"
   }, 
   {
     "description": "Find r in parantheses",
     "find": "\\(r+\\)",
-    "replace": "",
+    "replace": "~r",
     "type": "common"
   },
   {
-    "description": "Find TM",
+    "description": "Find trademark and add superscript",
     "find": "~d",
-    "replace": "",
+    "replace": "corresponding character style ‘superscript’",
     "type": "common"
   },
   {
@@ -90,7 +90,7 @@
     "type": "fraunhofer"
   },
   {
-    "description": "Find CO2 and add character style with superscript",
+    "description": "Find ‘CO2’ and add character style with subscript",
     "find": " (?<=\\<CO)2\\>", 
     "replace": "corresponding character style ‘subscript’",
     "type": "chemicalformula"
