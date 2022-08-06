@@ -52,6 +52,7 @@ body {
 body {
     overflow-y: scroll;
     overflow-x: hidden;
+    margin-bottom: 6rem;
 }
 
 header {
@@ -97,6 +98,18 @@ h3,
 h4,
 h5 {
     margin-top: 0;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+li::marker {
+    content: '·';
 }
 
 header p {
