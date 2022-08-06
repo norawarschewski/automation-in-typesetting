@@ -190,6 +190,10 @@ h3 {
     grid-column: 1/4;
 }
 
+.grid__5-6 {
+    grid-column: 5/6;
+}
+
 .grid__5-7 {
     grid-column: 5/7;
 }
