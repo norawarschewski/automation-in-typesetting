@@ -19,19 +19,19 @@
 ::-webkit-scrollbar {
     width: 5px;
 }
- 
+
 ::-webkit-scrollbar-track {
     background-color: var(--clr-grey);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--clr-acc); 
+    background: var(--clr-acc);
 }
 
 ::selection {
     color: var(--clr-white);
     background: var(--clr-acc);
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -136,8 +136,9 @@ header p {
     align-self: center;
 }
 
-.code, .code.grid__5-7 {
-    font-family: inherit!important;
+.code,
+.code.grid__5-7 {
+    font-family: inherit !important;
     font-weight: 200;
     align-self: center;
 }
@@ -172,7 +173,7 @@ h3 {
     padding: 0.5rem 1rem;
 }
 
-.intro > h2 {
+.intro>h2 {
     grid-column: 1/9;
     align-self: center;
     padding: 1rem 0 0;
@@ -239,7 +240,11 @@ h3 {
         width: 60vw;
     }
 
-    .grid__1-4, .grid__5-7, .grid__5-9, .grid__7-9, .description {
+    .grid__1-4,
+    .grid__5-7,
+    .grid__5-9,
+    .grid__7-9,
+    .description {
         grid-column: 1/span 9;
     }
 }
