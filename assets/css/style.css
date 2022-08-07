@@ -176,7 +176,7 @@ h3 {
 .intro>h2 {
     grid-column: 1/9;
     align-self: center;
-    padding: 1rem 0 0;
+    padding: 5rem 0 0;
 }
 
 .intro h3 {
