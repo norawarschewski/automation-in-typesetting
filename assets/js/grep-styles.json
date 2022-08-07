@@ -48,12 +48,6 @@
     "type": "common"
   },
   {
-    "description": "Find trademark and add superscript",
-    "find": "~d",
-    "replace": "corresponding character style ‘superscript’",
-    "type": "common"
-  },
-  {
     "description": "Correct capitalization of brand name",
     "find": "(?-i:fraunhofer umsicht)",
     "replace": "Fraunhofer UMSICHT",
@@ -94,5 +88,11 @@
     "find": " (?<=\\<CO)2\\>", 
     "replace": "corresponding character style ‘subscript’",
     "type": "chemicalformula"
+  },
+  {
+    "description": "Find trademark and add superscript",
+    "find": "~d",
+    "replace": "corresponding character style ‘superscript’",
+    "type": "common"
   }
 ]
