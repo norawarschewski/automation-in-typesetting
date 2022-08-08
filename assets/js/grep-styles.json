@@ -36,6 +36,12 @@
     "type": "common"
   },
   {
+    "description": "Find URLs",
+    "find": "(?i)(http|ftp|www)(\\S+)|(\\S+) (\\.gov|\\.us|\\.net|\\.com|\\.edu|\\.org|\\.biz)",
+    "replace": "",
+    "type": "common"
+  },
+  {
     "description": "Find c in parantheses",
     "find": "\\(c+\\)",
     "replace": "~2",
@@ -54,33 +60,39 @@
     "type": "fraunhofer"
   },
   {
-    "description": "Phone number",
-    "find": "",
-    "replace": "",
-    "type": "fraunhofer"
-  },
-  {
-    "description": "Replace curly quotation marks with Guillemets",
-    "find": "",
-    "replace": "",
-    "type": "fraunhofer"
-  },
-  {
-    "description": "Single quotation marks (German)",
-    "find": "",
-    "replace": "",
-    "type": "fraunhofer"
-  },
-  {
-    "description": "Replace straight with curly quotation marks",
-    "find": "",
-    "replace": "",
-    "type": "fraunhofer"
-  },
-  {
-    "description": "Prevent separation of brand name",
+    "description": "Prevent separation or hyphenation of brand name",
     "find": "Fraunhofer UMSICHT",
     "replace": "corresponding character style ‘no break’",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Format phone number",
+    "find": "",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Format URLs",
+    "find": "(http://|https://)",
+    "replace": "",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Replace double left quotation marks with Guillemets",
+    "find": "~{",
+    "replace": "»",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Replace double right quotation marks with Guillemets",
+    "find": "~}",
+    "replace": "«",
+    "type": "fraunhofer"
+  },
+  {
+    "description": "Single left quotation mark",
+    "find": "~[",
+    "replace": "›",
     "type": "fraunhofer"
   },
   {
